@@ -212,7 +212,7 @@ const initialize = ()=>{
     let data = localStorage.getItem('list');
 
     if (data == null) {
-        localStorage.setItem('list','[{"color":"rgb(230, 51, 26)","etiquetas":"https://pwa-rdl.surge.sh/assets/img/clock.png,https://pwa-rdl.surge.sh/assets/img/home.png,https://pwa-rdl.surge.sh/assets/img/work.png,https://pwa-rdl.surge.sh/assets/img/warning.png","title":"home","date":"2021-05-20","time":"13:06","description":"fefedfwdeded","id":1,"completed":0}]');
+        localStorage.setItem('list','[{"color":"#22b0b0","etiquetas":"https://pwa-rdl.surge.sh/assets/img/clock.png,https://pwa-rdl.surge.sh/assets/img/home.png,https://pwa-rdl.surge.sh/assets/img/work.png,https://pwa-rdl.surge.sh/assets/img/warning.png","title":"Task 1","date":"2021-05-20","time":"13:06","description":"Description 1","id":1,"completed":0}]');
         data = localStorage.getItem('list');
     }
 
