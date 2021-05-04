@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>PWA</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon"  type="image/png"href="favicon.ico">
+</head>
+
+<body>
+    <nav>
+        <div class="name">Ronald De Leon</div>
+        <button class="btn-add">Add</button>
+    </nav>
+    <section class="container">
+        <h1 class="secction-title">To do</h1>
+        <div class="list">
+
+        </div>
+    </section>
+    <div class="modal">
+        <div class="modal-body">
+            <form action="" id="form-task">
+                <div class="modal-header">
+                    <h2 class="modal-title">Add task</h2>
+                    <div class="colors">
+                    </div>
+                </div>
+                    <input type="hidden" name="color">
+                    <input type="hidden" name="etiquetas">
+                    <input type="text" placeholder="Write title" name="title" required>
+                    <input type="date" name="date" required>
+                    <input type="time" name="time" required>
+                    <textarea name="description" id="" cols="30" rows="5" placeholder="Description" required></textarea>                    
+                    <div class="select-etiquetas">
+                        <h3 class="title-eti">Hashtag </h3>
+                    </div>
+                    <div class="modal-btns">
+                        <button class="btn-cancel">Cancel</button>
+                        <button class="btn-save">Save</button>
+                    </div>
+                </form>
+        </div>
+    </div>
+    <script src="assets/js/codigo.js"></script>
+</body>
+
+</html>

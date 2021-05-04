@@ -1,0 +1,32 @@
+{
+    "theme_color": "#1cd8d8",
+    "background_color": "#1cd8d8",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "To Do",
+    "short_name": "To Do",
+    "description": "app to save to-do list",
+    "icons": [
+        {
+            "src": "assets/img/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/img/icons/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/img/icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/img/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
